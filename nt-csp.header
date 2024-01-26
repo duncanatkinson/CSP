@@ -1,0 +1,14 @@
+base-uri 'self';
+connect-src 'self' https://maps.googleapis.com;
+default-src 'self';
+font-src 'self' https://fonts.gstatic.com;
+frame-src 'self' https://www.youtube.com;
+img-src 'self'
+data: https://data.privacy.ensighten.com https://maps.googleapis.com https://maps.gstatic.com https://nexus.ensighten.com https://nt.global.ssl.fastly.net;
+manifest-src 'self';
+media-src 'self';
+object-src 'none';
+report-uri https://65b3ca7e086f86bedad7b716.endpoint.csper.io/;
+script-src 'report-sample' 'self' https://maps.googleapis.com/maps/api/js https://nexus.ensighten.com/nationaltrust/prod/serverComponent.php https://static.nationaltrust.org.uk/js/website-cookie-preferences-vue/nt-cookie-form.full.min.js https://www.youtube.com/iframe_api;
+style-src 'report-sample' 'self' https://fonts.googleapis.com https://static.nationaltrust.org.uk;
+worker-src 'none';
